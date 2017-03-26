@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/xiaomi/virgo/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/xiaomi/virgo/proprietary/bin/wcnss_service:system/bin/wcnss_service \
+    vendor/xiaomi/virgo/proprietary/bin/set_sensorprop.sh:system/bin/set_sensorprop.sh \
     vendor/xiaomi/virgo/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/xiaomi/virgo/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/xiaomi/virgo/proprietary/etc/android_model_facea.dat:system/etc/android_model_facea.dat \
@@ -70,6 +71,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/etc/sdm_200_HOG3x3_Grid3x3_bin5_noproj_zero_reduced.bin.pca:system/etc/sdm_200_HOG3x3_Grid3x3_bin5_noproj_zero_reduced.bin.pca \
     vendor/xiaomi/virgo/proprietary/etc/sdm_200_HOG3x3_Grid3x3_bin5_noproj_zero_reduced.bin:system/etc/sdm_200_HOG3x3_Grid3x3_bin5_noproj_zero_reduced.bin \
     vendor/xiaomi/virgo/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
+    vendor/xiaomi/virgo/proprietary/etc/sensor_diag.cfg:system/etc/sensor_diag.cfg \
     vendor/xiaomi/virgo/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/xiaomi/virgo/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/xiaomi/virgo/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
@@ -91,6 +93,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/lib/libchromatix_s5k3m2_liveshot.so:system/lib/libchromatix_s5k3m2_liveshot.so \
     vendor/xiaomi/virgo/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/xiaomi/virgo/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/xiaomi/virgo/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
+    vendor/xiaomi/virgo/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/xiaomi/virgo/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/xiaomi/virgo/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/xiaomi/virgo/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
