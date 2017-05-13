@@ -75,6 +75,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/xiaomi/virgo/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/xiaomi/virgo/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
+    vendor/xiaomi/virgo/proprietary/lib/modules/exfat.ko:system/lib/modules/exfat.ko \
+    vendor/xiaomi/virgo/proprietary/lib/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko \
+    vendor/xiaomi/virgo/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko \
     vendor/xiaomi/virgo/proprietary/lib/hw/activity_recognition.msm8974.so:system/lib/hw/activity_recognition.msm8974.so \
     vendor/xiaomi/virgo/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/xiaomi/virgo/proprietary/lib/hw/gps.msm8974.so:system/lib/hw/gps.msm8974.so \
