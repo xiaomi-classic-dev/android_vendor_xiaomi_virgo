@@ -24,6 +24,6 @@ if [ $(getprop ro.boot.hwversion | grep -e 5[0-9]) ]; then
     chmod -h 600 /persist/GSensorData.txt
     chown -h system:system /persist/PSensorData.txt
     chmod -h 600 /persist/PSensorData.txt
-    setprop ro.hardware.sensors leo
+    setprop ro.hardware.sensors st_mve
     /system/bin/log -p e -t "SensorSelect" "Use sensors.leo"
 fi

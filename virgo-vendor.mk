@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/xiaomi/virgo/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/xiaomi/virgo/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/xiaomi/virgo/proprietary/bin/sensorextd:system/bin/sensorextd \
     vendor/xiaomi/virgo/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/xiaomi/virgo/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/xiaomi/virgo/proprietary/bin/wcnss_service:system/bin/wcnss_service \
@@ -83,7 +84,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/lib/hw/activity_recognition.msm8974.so:system/lib/hw/activity_recognition.msm8974.so \
     vendor/xiaomi/virgo/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/xiaomi/virgo/proprietary/lib/hw/gps.msm8974.so:system/lib/hw/gps.msm8974.so \
-    vendor/xiaomi/virgo/proprietary/lib/hw/sensors.leo.so:system/lib/hw/sensors.leo.so \
+    vendor/xiaomi/virgo/proprietary/lib/hw/sensors.st_mve.so:system/lib/hw/sensors.st_mve.so \
     vendor/xiaomi/virgo/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
     vendor/xiaomi/virgo/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/xiaomi/virgo/proprietary/lib/libRecoFace.so:system/lib/libRecoFace.so \
@@ -98,7 +99,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/lib/libchromatix_s5k3m2_liveshot.so:system/lib/libchromatix_s5k3m2_liveshot.so \
     vendor/xiaomi/virgo/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/xiaomi/virgo/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/xiaomi/virgo/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     vendor/xiaomi/virgo/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/xiaomi/virgo/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/xiaomi/virgo/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
