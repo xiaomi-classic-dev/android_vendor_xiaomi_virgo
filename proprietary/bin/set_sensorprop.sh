@@ -6,26 +6,35 @@ export PATH
 if [ $(getprop ro.boot.hwversion | grep -e 5[0-9]) ]; then
     /system/bin/log -p e -t "SensorSelect" "Device is X5, set HAL to st_mve"
 
-    chown -h system:system /persist/PSensorThFar.txt
-    chmod -h 600 /persist/PSensorThFar.txt
-    chown -h system:system /persist/PSensorThNear.txt
-    chmod -h 600 /persist/PSensorThNear.txt
-    chown -h system:system /persist/PSensor3cm_ct.txt
-    chmod -h 600 /persist/PSensor3cm_ct.txt
-    chown -h system:system /persist/MSensorData.txt
-    chmod -h 600 /persist/MSensorData.txt
-    chown -h system:system /persist/LightSensorData.txt
-    chmod -h 600 /persist/LightSensorData.txt
-    chown -h system:system /persist/PRSensorData.txt
-    chmod -h 600 /persist/PRSensorData.txt
-    chown -h system:system /persist/ASensorData.txt
-    chmod -h 600 /persist/ASensorData.txt
-    chown -h system:system /persist/GSensorData.txt
-    chmod -h 600 /persist/GSensorData.txt
-    chown -h system:system /persist/PSensorData.txt
-    chmod -h 600 /persist/PSensorData.txt
+    # help the sensorservice to load the correct HAL
     setprop ro.hardware.sensors st_mve
-    /system/bin/log -p e -t "SensorSelect" "Use sensors.leo"
-    start sensorext
+
+    # delay sensorservice to wait for hardware being ready
+    setprop system_init.startsensorservice 0
+    if [ $(getprop ro.boot.hwversion | grep -e 5[0-9]) ]; then
+    /system/bin/log -p e -t "SensorSelect" "Device is X5, wait4sensorhub"
+
+    HID=/sys/bus/hid/drivers/hid-sensor-hub/0018:0483:5702.0001
+
+    cnt=0
+    while [ $cnt -lt 20 ]; do
+        if [ -e ${HID} ]; then
+            break
+        fi
+        ((cnt += 1))
+        sleep 1
+    done
+
+    if [ $cnt -eq 20 ]; then
+        /system/bin/log -p e -t "SensorSelect" "sensorhub error: HW is absent"
+    else
+        /system/bin/log -p e -t "SensorSelect" "sensorhub HW is ready now, start sensorservice"
+    fi
+
+    # always start sensorservice, otherwise the system may hang in powerup
     start sensorservice
+    start sensorext
+else
+    /system/bin/log -p e -t "SensorSelect" "Device is not X5, skip wait"
+fi
 fi
