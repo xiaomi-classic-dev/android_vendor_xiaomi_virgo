@@ -43,8 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/xiaomi/virgo/proprietary/etc/android_model_facea.dat:system/etc/android_model_facea.dat \
     vendor/xiaomi/virgo/proprietary/etc/android_model_faceg.dat:system/etc/android_model_faceg.dat \
-    vendor/xiaomi/virgo/proprietary/etc/thermal-engine-8974.conf:system/etc/thermal-engine-8974.conf \
-    vendor/xiaomi/virgo/proprietary/etc/thermal-engine-perf.conf:system/etc/thermal-engine-perf.conf \
     vendor/xiaomi/virgo/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/xiaomi/virgo/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/xiaomi/virgo/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
@@ -126,14 +124,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
     vendor/xiaomi/virgo/proprietary/lib/hw/audio.primary.msm8974.so:system/lib/hw/audio.primary.msm8974.so \
-    vendor/xiaomi/virgo/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/xiaomi/virgo/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     vendor/xiaomi/virgo/proprietary/vendor/etc/audio_policy.conf:system/vendor/etc/audio_policy.conf \
     vendor/xiaomi/virgo/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
-    vendor/xiaomi/virgo/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/xiaomi/virgo/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so\
     vendor/xiaomi/virgo/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
