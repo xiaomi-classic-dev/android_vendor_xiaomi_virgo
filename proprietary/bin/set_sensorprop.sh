@@ -34,7 +34,7 @@ if [ $(getprop ro.boot.hwversion | grep -e 5[0-9]) ]; then
     # always start sensorservice, otherwise the system may hang in powerup
     start sensorservice
     start sensorext
-else
-    /system/bin/log -p e -t "SensorSelect" "Device is not X5, skip wait"
-fi
+    else
+        /system/bin/log -p e -t "SensorSelect" "Device is not X5, skip wait"
+    fi
 fi
