@@ -134,7 +134,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/xiaomi/virgo/proprietary/vendor/lib/liblisten.so:system/vendor/lib/liblisten.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/liblistenhardware.so:system/vendor/lib/liblistenhardware.so \
+    vendor/xiaomi/virgo/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
+    vendor/xiaomi/virgo/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libDiracAPI_SHARED.so:system/vendor/lib/libDiracAPI_SHARED.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libFaceDeform.so:system/vendor/lib/libFaceDeform.so \
