@@ -79,7 +79,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/lib/hw/activity_recognition.msm8974.so:system/lib/hw/activity_recognition.msm8974.so \
     vendor/xiaomi/virgo/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/xiaomi/virgo/proprietary/lib/hw/gps.msm8974.so:system/lib/hw/gps.msm8974.so \
-    vendor/xiaomi/virgo/proprietary/lib/hw/sensors.st_mve.so:system/lib/hw/sensors.st_mve.so \
+    vendor/xiaomi/virgo/proprietary/vendor/lib/libsensors.st_mve.so:system/vendor/lib/libsensors.st_mve.so \
     vendor/xiaomi/virgo/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
     vendor/xiaomi/virgo/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/xiaomi/virgo/proprietary/lib/libRecoFace.so:system/lib/libRecoFace.so \
@@ -119,7 +119,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-    vendor/xiaomi/virgo/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
+    vendor/xiaomi/virgo/proprietary/vendor/lib/libsensors.msm8974.so:system/vendor/lib/libsensors.msm8974.so \
     vendor/xiaomi/virgo/proprietary/lib/hw/audio.primary.msm8974.so:system/lib/hw/audio.primary.msm8974.so \
     vendor/xiaomi/virgo/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     vendor/xiaomi/virgo/proprietary/vendor/etc/audio_policy.conf:system/vendor/etc/audio_policy.conf \
