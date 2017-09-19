@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/xiaomi/virgo/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/xiaomi/virgo/proprietary/bin/charger_monitor:system/bin/charger_monitor \
-    vendor/xiaomi/virgo/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/xiaomi/virgo/proprietary/bin/hvdcp:system/bin/hvdcp \
     vendor/xiaomi/virgo/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/xiaomi/virgo/proprietary/bin/lowi-server:system/bin/lowi-server \
