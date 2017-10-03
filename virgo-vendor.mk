@@ -81,6 +81,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/xiaomi/virgo/proprietary/lib/hw/gps.msm8974.so:system/lib/hw/gps.msm8974.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libsensors.st_mve.so:system/vendor/lib/libsensors.st_mve.so \
+    vendor/xiaomi/virgo/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/xiaomi/virgo/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
     vendor/xiaomi/virgo/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/xiaomi/virgo/proprietary/lib/libRecoFace.so:system/lib/libRecoFace.so \
