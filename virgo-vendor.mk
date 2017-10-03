@@ -370,8 +370,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/xiaomi/virgo/proprietary/vendor/lib/libdrmdecrypt.2.so:system/vendor/lib/libdrmdecrypt.2.so \
-    vendor/xiaomi/virgo/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+    vendor/xiaomi/virgo/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -501,7 +500,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
-    vendor/xiaomi/virgo/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/soundfx/libdirac.so:system/vendor/lib/soundfx/libdirac.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
