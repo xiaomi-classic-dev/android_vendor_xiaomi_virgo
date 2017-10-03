@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/xiaomi/virgo/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/xiaomi/virgo/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/xiaomi/virgo/proprietary/bin/qosmgr:system/bin/qosmgr \
     vendor/xiaomi/virgo/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/xiaomi/virgo/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
     vendor/xiaomi/virgo/proprietary/bin/quipc_main:system/bin/quipc_main \
