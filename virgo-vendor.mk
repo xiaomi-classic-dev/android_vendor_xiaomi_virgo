@@ -21,25 +21,20 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/xiaomi/virgo/proprietary/bin/hvdcp:system/bin/hvdcp \
     vendor/xiaomi/virgo/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/xiaomi/virgo/proprietary/bin/lowi-server:system/bin/lowi-server \
+    vendor/xiaomi/virgo/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/xiaomi/virgo/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/xiaomi/virgo/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/xiaomi/virgo/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/xiaomi/virgo/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/xiaomi/virgo/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/xiaomi/virgo/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
-    vendor/xiaomi/virgo/proprietary/bin/quipc_main:system/bin/quipc_main \
     vendor/xiaomi/virgo/proprietary/bin/radish:system/bin/radish \
     vendor/xiaomi/virgo/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/xiaomi/virgo/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/xiaomi/virgo/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/xiaomi/virgo/proprietary/bin/sensorextd:system/bin/sensorextd \
     vendor/xiaomi/virgo/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/xiaomi/virgo/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/xiaomi/virgo/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/xiaomi/virgo/proprietary/bin/set_sensorprop.sh:system/bin/set_sensorprop.sh \
-    vendor/xiaomi/virgo/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-    vendor/xiaomi/virgo/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/xiaomi/virgo/proprietary/etc/android_model_facea.dat:system/etc/android_model_facea.dat \
     vendor/xiaomi/virgo/proprietary/etc/android_model_faceg.dat:system/etc/android_model_faceg.dat \
     vendor/xiaomi/virgo/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
@@ -96,13 +91,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/xiaomi/virgo/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/xiaomi/virgo/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/xiaomi/virgo/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/xiaomi/virgo/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/xiaomi/virgo/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/xiaomi/virgo/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/xiaomi/virgo/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/xiaomi/virgo/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/xiaomi/virgo/proprietary/lib/libstm-log.so:system/lib/libstm-log.so \
     vendor/xiaomi/virgo/proprietary/lib/rfsa/adsp/libapps_mem_heap.so:system/lib/rfsa/adsp/libapps_mem_heap.so \
     vendor/xiaomi/virgo/proprietary/lib/rfsa/adsp/libdspCV_skel.so:system/lib/rfsa/adsp/libdspCV_skel.so \
     vendor/xiaomi/virgo/proprietary/lib/rfsa/adsp/libfastcvadsp.so:system/lib/rfsa/adsp/libfastcvadsp.so \
@@ -377,6 +370,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
+    vendor/xiaomi/virgo/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
@@ -385,7 +379,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    vendor/xiaomi/virgo/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
@@ -469,8 +462,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/xiaomi/virgo/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/xiaomi/virgo/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
@@ -485,19 +476,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libsensor_test.so:system/vendor/lib/libsensor_test.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
-    vendor/xiaomi/virgo/proprietary/vendor/lib/libsrsprocessing.so:system/vendor/lib/libsrsprocessing.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libt2tmanager.so:system/vendor/lib/libt2tmanager.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
-    vendor/xiaomi/virgo/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/xiaomi/virgo/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/xiaomi/virgo/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
-    vendor/xiaomi/virgo/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/xiaomi/virgo/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/soundfx/libdirac.so:system/vendor/lib/soundfx/libdirac.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
