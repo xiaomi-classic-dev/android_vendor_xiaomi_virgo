@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/bin/hvdcp:system/bin/hvdcp \
     vendor/xiaomi/virgo/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/xiaomi/virgo/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/xiaomi/virgo/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/xiaomi/virgo/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/xiaomi/virgo/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/xiaomi/virgo/proprietary/bin/netmgrd:system/bin/netmgrd \
