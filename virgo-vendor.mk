@@ -78,7 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/lib/hw/gps.msm8974.so:system/lib/hw/gps.msm8974.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libsensors.st_mve.so:system/vendor/lib/libsensors.st_mve.so \
     vendor/xiaomi/virgo/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
-    vendor/xiaomi/virgo/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/xiaomi/virgo/proprietary/lib/libRecoFace.so:system/lib/libRecoFace.so \
     vendor/xiaomi/virgo/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
     vendor/xiaomi/virgo/proprietary/lib/libchromatix_imx214_liveshot.so:system/lib/libchromatix_imx214_liveshot.so \
@@ -447,6 +446,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
+    vendor/xiaomi/virgo/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
