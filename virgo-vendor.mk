@@ -136,8 +136,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libFaceProc.so:system/vendor/lib/libFaceProc.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
-	vendor/xiaomi/virgo/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-	vendor/xiaomi/virgo/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
+    vendor/xiaomi/virgo/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
