@@ -35,7 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/bin/sensorextd:system/bin/sensorextd \
     vendor/xiaomi/virgo/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/xiaomi/virgo/proprietary/bin/wcnss_service:system/bin/wcnss_service \
-    vendor/xiaomi/virgo/proprietary/bin/set_sensorprop.sh:system/bin/set_sensorprop.sh \
     vendor/xiaomi/virgo/proprietary/etc/android_model_facea.dat:system/etc/android_model_facea.dat \
     vendor/xiaomi/virgo/proprietary/etc/android_model_faceg.dat:system/etc/android_model_faceg.dat \
     vendor/xiaomi/virgo/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
