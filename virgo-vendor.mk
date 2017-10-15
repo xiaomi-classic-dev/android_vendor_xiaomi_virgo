@@ -61,6 +61,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/etc/firmware/wcnss.b08:system/etc/firmware/wcnss.b08 \
     vendor/xiaomi/virgo/proprietary/etc/firmware/wcnss.b09:system/etc/firmware/wcnss.b09 \
     vendor/xiaomi/virgo/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
+    vendor/xiaomi/virgo/proprietary/etc/people_gender.dat:system/etc/people_gender.dat \
     vendor/xiaomi/virgo/proprietary/etc/permissions/com.sony.device.xml:system/etc/permissions/com.sony.device.xml \
     vendor/xiaomi/virgo/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/xiaomi/virgo/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
