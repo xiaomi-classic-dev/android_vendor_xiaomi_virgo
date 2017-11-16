@@ -76,7 +76,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/xiaomi/virgo/proprietary/lib/hw/activity_recognition.msm8974.so:system/lib/hw/activity_recognition.msm8974.so \
     vendor/xiaomi/virgo/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
-    vendor/xiaomi/virgo/proprietary/lib/hw/gps.msm8974.so:system/lib/hw/gps.msm8974.so \
     vendor/xiaomi/virgo/proprietary/vendor/lib/libsensors.st_mve.so:system/vendor/lib/libsensors.st_mve.so \
     vendor/xiaomi/virgo/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/xiaomi/virgo/proprietary/lib/libRecoFace.so:system/lib/libRecoFace.so \
@@ -89,10 +88,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/lib/libchromatix_imx226_liveshot.so:system/lib/libchromatix_imx226_liveshot.so \
     vendor/xiaomi/virgo/proprietary/lib/libchromatix_s5k3m2_liveshot.so:system/lib/libchromatix_s5k3m2_liveshot.so \
     vendor/xiaomi/virgo/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
-    vendor/xiaomi/virgo/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/xiaomi/virgo/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/xiaomi/virgo/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/xiaomi/virgo/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/xiaomi/virgo/proprietary/lib/libDiracAPI_SHARED.so:system/lib/libDiracAPI_SHARED.so \
     vendor/xiaomi/virgo/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/xiaomi/virgo/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
