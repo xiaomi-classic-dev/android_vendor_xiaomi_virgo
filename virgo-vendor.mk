@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/xiaomi/virgo/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/xiaomi/virgo/proprietary/bin/charger_monitor:system/bin/charger_monitor \
     vendor/xiaomi/virgo/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/xiaomi/virgo/proprietary/bin/hvdcp:system/bin/hvdcp \
@@ -33,7 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/xiaomi/virgo/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/xiaomi/virgo/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/xiaomi/virgo/proprietary/vendor/bin/wcnss_service:system/vendor/bin/wcnss_service \
     vendor/xiaomi/virgo/proprietary/etc/android_model_facea.dat:system/etc/android_model_facea.dat \
     vendor/xiaomi/virgo/proprietary/etc/android_model_faceg.dat:system/etc/android_model_faceg.dat \
     vendor/xiaomi/virgo/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
@@ -90,7 +88,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/xiaomi/virgo/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/xiaomi/virgo/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/xiaomi/virgo/proprietary/lib/libqminvapi.so:system/lib/libqminvapi.so \
     vendor/xiaomi/virgo/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/xiaomi/virgo/proprietary/lib/rfsa/adsp/libapps_mem_heap.so:system/lib/rfsa/adsp/libapps_mem_heap.so \
     vendor/xiaomi/virgo/proprietary/lib/rfsa/adsp/libdspCV_skel.so:system/lib/rfsa/adsp/libdspCV_skel.so \
@@ -476,6 +473,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
+    libqminvapi \
     libmdmdetect \
     libTimeService \
     libdiag \
