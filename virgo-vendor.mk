@@ -58,14 +58,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/virgo/proprietary/etc/firmware/wcnss.b08:system/etc/firmware/wcnss.b08 \
     vendor/xiaomi/virgo/proprietary/etc/firmware/wcnss.b09:system/etc/firmware/wcnss.b09 \
     vendor/xiaomi/virgo/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
-    vendor/xiaomi/virgo/proprietary/etc/people_gender.dat:system/etc/people_gender.dat \
     vendor/xiaomi/virgo/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/xiaomi/virgo/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/xiaomi/virgo/proprietary/etc/sdm_200_HOG3x3_Grid3x3_bin5_noproj_zero_reduced.bin:system/etc/sdm_200_HOG3x3_Grid3x3_bin5_noproj_zero_reduced.bin \
-    vendor/xiaomi/virgo/proprietary/etc/sdm_200_HOG3x3_Grid3x3_bin5_noproj_zero_reduced.bin.pca:system/etc/sdm_200_HOG3x3_Grid3x3_bin5_noproj_zero_reduced.bin.pca \
     vendor/xiaomi/virgo/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/xiaomi/virgo/proprietary/etc/sensor_diag.cfg:system/etc/sensor_diag.cfg \
-    vendor/xiaomi/virgo/proprietary/etc/watermark_font_2300_3199.dat:system/etc/watermark_font_2300_3199.dat \
     vendor/xiaomi/virgo/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/xiaomi/virgo/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/xiaomi/virgo/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
